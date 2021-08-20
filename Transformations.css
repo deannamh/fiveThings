@@ -1,0 +1,85 @@
+body {
+	background-color: #cc99ff;
+}
+
+#titleImage {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c1aff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #330066;
+ }
+p {
+  background-color:#ff99ff;
+  font-size: 20px;
+  margin: auto;
+  
+} 
+ 
+ table {
+   background-color:black;
+   color: white;
+   margin: auto;
+   text-align: center;
+   border: 3px dashed #ff00ff;
+ }
+th {
+  font-size: 25px;
+  color:#ff00ff;
+  text-align: center;
+}
+
+#incFont {
+  font-size: 25px;
+  text-align: center;
+  color: #ff00ff;
+}
+	
+td img{
+    height: 150px;
+    width: 150px;
+}	
+.scale:hover {
+	transform:scale(1.1, 1.1)
+}
+.rotate:hover {
+	transform:rotate(24deg)
+}
+.translate:hover {
+	transform:translate(25px, 25px)
+}
+.skew:hover {
+	transform:skew(15deg, 20deg)
+}
+.matrix:hover {
+	transform: matrix(1, 0.2, 1, 1, 0.1, 0)
+}

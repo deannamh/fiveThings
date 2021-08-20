@@ -1,0 +1,99 @@
+body {
+	background: radial-gradient(circle, pink, violet, indigo, black);
+  	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    
+}
+img{
+    padding-left: 300px;
+}
+
+#titleImage {
+	display: block;
+	width: 100%;
+	height: 150px;
+	margin: auto;
+	background-color: black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c1aff;
+}
+
+li {
+    float: left;
+	text-align: center;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+	border-radius: 8px;
+	border: 2px dashed violet;
+}
+
+li a:hover {
+    background-color: #330066;
+ }
+p {
+  background-color:#ff99ff;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+} 
+ 
+ table {
+   background-color:black;
+   color: white;
+   margin: auto;
+   text-align: center;
+   border: 3px dashed #ff00ff;
+ }
+th {
+  font-size: 25px;
+  color:#ff00ff;
+  text-align: center;
+}
+
+#incFont {
+  font-size: 25px;
+  text-align: center;
+  color: #ff00ff;
+}
+	
+#gradLtR {
+    height: 150px;
+    width: 200px;
+    background: linear-gradient(to right, black, #00ccff, white); 
+} 
+#gradTtB {
+    height: 150px;
+    width: 200px;
+    background: linear-gradient(#ffff00, #ff6600, #ff0000); 
+}	
+#gradDiagonal {
+    height: 150px;
+    width: 200px;
+    background: linear-gradient(to bottom right, #00ff00, #1affb2, #e6ccff); 
+}		
+#gradTrans {
+    height: 150px;
+    width: 200px;
+    background: linear-gradient(to right, rgba(254,129,255,0), rgba(254,129,255,1));	
+}
+#gradRadial {
+    height: 150px;
+    width: 200px;
+    background: radial-gradient(circle, #7300e6, #ff4dff, #9494b8);	
+}
+

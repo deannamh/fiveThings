@@ -1,0 +1,83 @@
+body {
+	background-color: #cc99ff;
+}
+
+#titleImage {
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8c1aff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #330066;
+ }
+p {
+  background-color:#ff99ff;
+  font-size: 20px;
+  margin: auto;
+  
+} 
+ 
+ table {
+   background-color:black;
+   color: white;
+   margin: auto;
+   text-align: center;
+   border: 3px dashed #ff00ff;
+   margin-top: 50px;
+ }
+th {
+  font-size: 25px;
+  color:#ff00ff;
+  text-align: center;
+}
+
+
+table a:link {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+}
+table a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+table a:hover {
+    color: lime;
+    background-color: transparent;
+    text-decoration: underline;
+}
+table a:active {
+    color: fuchsia;
+    background-color: transparent;
+    text-decoration: underline;
+}
+	
